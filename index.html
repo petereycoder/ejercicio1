@@ -9,7 +9,16 @@
         <!--<link rel="stylesheet" type="text/css" href="css/index.css" />-->
         <title>Ejercicio 1</title>
 		<script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
-		<script type="text/javascript" charset="utf-8">
+		
+<style>
+	body{
+		background-color:green;
+	}
+</style>
+    </head>
+    <body onload="redireccionar()">
+	<div id="conexion" style="background-color:black;font-size:15px; color:white;"></div>
+	<script type="text/javascript" charset="utf-8">
 		function redireccionar(){
 
 			document.addEventListener("deviceready",onDeviceReady,false);
@@ -26,14 +35,5 @@
 			}
 		}
 </script>
-<style>
-	body{
-		background-color:green;
-	}
-</style>
-    </head>
-    <body onload="redireccionar()">
-	<div id="conexion" style="background-color:black;font-size:15px; color:white;"></div>
-	
     </body>
 </html>
